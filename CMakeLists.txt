@@ -1,0 +1,16 @@
+
+cmake_minimum_supported(VERSION 3.16)
+
+add_definitions(
+	-DHAVE_STDLIB_H=1
+	-DHAVE_STDIO_H=1
+	-DHAVE_MATH_H=1
+	-DHAVE_STRING_H=1
+	-DHAVE_LIMITS_H=1
+	-DHAVE_STDARG_H=1
+	-DHAVE_C99_VARARGS_MACROS=1
+	-DHAVE_WAVREAD=1
+	-D_CRT_SECURE_NO_WARNINGS=1
+)
+
+add_library(aubio)

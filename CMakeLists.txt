@@ -141,3 +141,5 @@ add_library(aubio
             src/utils/strutils.c
             src/utils/windll.c
 )
+
+target_include_directories(aubio PRIVATE src)

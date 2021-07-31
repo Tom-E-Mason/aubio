@@ -52,3 +52,20 @@ python/tests/sounds
 aubio.egg-info
 .eggs
 .cache
+
+# CMake
+/CMakeCache.txt
+/cmake_install.cmake
+/CMakeFiles
+/.vs
+
+# CMake - Visual Studio/Windows
+/aubio.sln
+/aubio.vcxproj
+/aubio.vcxproj.filters
+/aubio.vcxproj.user
+/ALL_BUILD.vcxproj
+/ALL_BUILD.vcxproj.filters
+/ZERO_CHECK.vcxproj
+/ZERO_CHECK.vcxproj.filters
+/aubio.dir

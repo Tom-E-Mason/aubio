@@ -69,3 +69,6 @@ aubio.egg-info
 /ZERO_CHECK.vcxproj
 /ZERO_CHECK.vcxproj.filters
 /aubio.dir
+
+# Build
+/lib

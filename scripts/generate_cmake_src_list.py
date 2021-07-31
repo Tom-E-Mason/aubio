@@ -51,7 +51,7 @@ def main():
 
         spaces = (' ' * len('add_library('))
         for i in range(len(files)):
-            files[i] = spaces + files[i].replace('..\\', '') + '\n'
+            files[i] = spaces + files[i].replace('..\\', '').replace('\\', '/') + '\n'
 
         files += ')\n'
 

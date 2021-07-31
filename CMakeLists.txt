@@ -1,6 +1,8 @@
 
 cmake_minimum_supported(VERSION 3.16)
 
+project(aubio C)
+
 add_definitions(
 	-DHAVE_STDLIB_H=1
 	-DHAVE_STDIO_H=1

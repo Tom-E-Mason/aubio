@@ -58,6 +58,7 @@ aubio.egg-info
 /cmake_install.cmake
 /CMakeFiles
 /.vs
+**/ZERO_CHECK
 
 # CMake - Visual Studio/Windows
 /aubio.sln

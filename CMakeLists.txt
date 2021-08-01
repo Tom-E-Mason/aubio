@@ -147,3 +147,5 @@ target_include_directories(aubio PRIVATE src)
 set_target_properties(aubio PROPERTIES
                       ARCHIVE_OUTPUT_DIRECTORY
                       ${PROJECT_SOURCE_DIR}/lib)
+
+target_compile_definitions(aubio PRIVATE HAVE_WIN_HACKS)
